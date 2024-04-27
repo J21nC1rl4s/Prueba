@@ -11,36 +11,56 @@ body{
 }
 
 img{
+    margin-left: 3rem;
+    margin-right: 3rem;
     max-width: 300%;
     
 }
 .encabezado{
     background-color: #FF7411;
     max-width: 100%;
+    
 }
 .buscar{
-    width: 70em;
+    width: 65rem;
     height: 4rem;
     border-radius: 4rem;
     border: solid .1rem;
-    margin-left: 8rem;
-    margin-right: 1rem;
+    margin-left: 15rem;
+    font-size: 2rem;
+    
 }
 .boton {
-    max-width: 3rem;
     background-color: #009BD3;
-    border-radius: 3rem;
+    border-radius: 2rem;
+    width: 6rem;
+    margin-right: 1;
     
+    
+}
+
+.flayer a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.flayer a:hover{
+    color: #009BD3;
+    text-decoration: none;
+
 }
 .boton img{
     color:white;
-    max-width: 2rem;
+    max-width: 3rem;
+    margin-left:1rem;
+    
+    
 }
 
 .menu{
     display: flex;
-    height: 8rem;
-
+    height: 9rem;
+    width: 100%;
 }
 
 .logo {
@@ -59,20 +79,21 @@ img{
 
 .sesion{
     color: white;
-    padding-left: 1rem;
+    font-size: 2rem;
+    margin-right: 8rem;
 }
 
 .navigation{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 7rem;
-    margin-right: 7rem;
+    margin-right: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 6.5rem;
     text-decoration: none;
     list-style: none;
-    color: #333333;
+
 }
     
 
