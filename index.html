@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.flaticon.es/iconos-gratis/lupa">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -18,42 +20,52 @@
     <header class="encabezado">
 
         <div class="menu">
-            <a href="#"> <img src="img/logos/LOGO-BL.png.webp"></a>
-            <input class="buscar">
-            <button class="buscador">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#"> <img src="img/logos/LOGO-BL.png.webp"></a>
+                </div>
+                <div class="buscador">
+                    <input class="buscar">
+                    <button class="boton"> <img  src="img/logos/lupa.png"></button>
+                </div>
+                
+                <div class="sesion" placeholder="Que estas buscando?">
+                    <h2> Iniciar Sesion / Resgistrar</h2>
+                </div>
+                <div class="carrito">
+                    
+                </div>
+            </nav>
+        </div>
 
-            </button>
-            <div class="sesion">
-                <a> Iniciar Sesion / Resgistrar</a>
-            </div>
-            <div class="carrito">
-                <i class="bi bi-cart"></i>
-            </div>
+    </header>
 
+        <section class="submenu">
             <div class="flayer">
                 <div class="indice">
                     <div class="listas">
                        <ul class="manu navigation">
-                        <li href="#" class="inicio">Inicio</li>
-                        <li class="tienda">Tienda</li>
-                        <li class="farmacia ">Farmacia</li>
-                        <li class="perros">Perros</li>
-                        <li class="gatos">Gatos</li>
-                        <li class="exoticos">Exoticos</li>
-                        <li class="servicio">Servicio</li>
-                        <li class="benfeicio">Benefi ioso</li>
-                        <li class="contacto">Contacto<li>
-                        <li class="estado pedido">Ver Esado Pidt</li>
-                        <li class="rstrear pedido">Ratrea tu pedido Aqui!</li>
-                        <li class="outlet"></li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#" class="tienda">Tienda</a></li>
+                        <li href="#" class="farmacia ">Farmacia</li>
+                        <li href="#" class="perros">Perros</li>
+                        <li href="#" class="gatos">Gatos</li>
+                        <li href="#" class="exoticos">Exoticos</li>
+                        <li href="#" class="servicio">Servicio</li>
+                        <li href="#" class="benfeicio">Beneficios</li>
+                        <li href="#" class="contacto">Contacto</li>
+                        <li href="#" class="estado pedido">Ver Esado de mi pedido</li>
+                        <li href="#" class="rstrear pedido">Ratrea tu pedido Aqui!</li>
+                        <li href="#" class="outlet">Outlet</li>
                        </ul>
                     </div>
                 </div>
                 
 
             </div>
+        </section>
 
-        </div>
+    
 
     </header>
 

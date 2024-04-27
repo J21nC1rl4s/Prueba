@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+body{
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 300%;
+    
+}
+.encabezado{
+    background-color: #FF7411;
+    max-width: 100%;
+}
+.buscar{
+    width: 70em;
+    height: 4rem;
+    border-radius: 4rem;
+    border: solid .1rem;
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+.boton {
+    max-width: 3rem;
+    background-color: #009BD3;
+    border-radius: 3rem;
+    
+}
+.boton img{
+    color:white;
+    max-width: 2rem;
+}
+
+.menu{
+    display: flex;
+    height: 8rem;
+
+}
+
+.logo {
+    flex-basis: 5%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+}
+.buscador{
+    display: flex;
+}
+
+.sesion{
+    color: white;
+    padding-left: 1rem;
+}
+
+.navigation{
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+}
+    
+
+
+
+
