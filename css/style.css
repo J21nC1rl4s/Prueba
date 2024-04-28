@@ -141,8 +141,45 @@ h1{
     font-size: 2rem;
     color:white;
 }
+
+h5{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.fila1{
+
+    display: flex;
     
+}
 
 
+.card{
+    justify-content: space-between;
+    width: 30rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card a{
+    text-decoration: none;
+}
 
 
+.fila2{
+    display: flex;
+}
+
+.prefooter{
+    display: flex;
+    width: 100rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.prefooter img{
+    ;
+
+    
+}
