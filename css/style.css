@@ -77,14 +77,20 @@ img{
     align-items: center;
     height: 6.5rem;
 }
-.buscador{
-    display: flex;
-}
+
 
 .sesion{
     color: white;
     font-size: 2rem;
-    margin-right: 8rem;
+    margin-right: 10rem;
+}
+
+.carrito img{
+    max-width: 4rem;
+    
+    align-items: 10rem;
+    
+    
 }
 
 .navigation{
@@ -173,13 +179,23 @@ h5{
 
 .prefooter{
     display: flex;
-    width: 100rem;
+    width: 120rem;
     justify-content: space-between;
     text-align: center;
+    padding-top: 5rem;
 }
 
-.prefooter img{
+.fin {
+    background-color: #FF7411;
+
+}
+.uno{
     ;
-
-    
 }
+
+.uno img{
+    max-width: 25rem;
+    margin-top: 4rem;
+}
+
+
