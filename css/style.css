@@ -10,17 +10,40 @@ body{
     font-size: 1.6rem;
 }
 
+/* aqui comienza el footer*/
 img{
     margin-left: 3rem;
     margin-right: 3rem;
     max-width: 300%;
     
 }
+.logo {
+    flex-basis: 5%;
+}
+
+
+.menu{
+    background-color: #FF7411;
+    display: flex;
+    height: 9rem;
+    width: 100%;
+}
 .encabezado{
    
     max-width: 100%;
     
 }
+
+.sesion{
+    color: white;
+    font-size: 2rem;
+    
+}
+.sesion img{
+    max-width: 3rem;
+    margin-left: 1rem;
+}
+
 .buscar{
     width: 65rem;
     height: 4rem;
@@ -30,15 +53,25 @@ img{
     font-size: 2rem;
     
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+}
+
 .boton {
     background-color: #009BD3;
     border-radius: 2rem;
     width: 6rem;
     margin-right: 1;
     
-    
 }
 
+/*aqui termina el header*/
+
+
+/* esto es para lo que sigue del footer (menu)*/
 .flayer a{
     color: #333333;
     text-decoration: none;
@@ -60,43 +93,6 @@ img{
     height: 6rem;
 }
 
-.menu{
-    background-color: #FF7411;
-    display: flex;
-    height: 9rem;
-    width: 100%;
-}
-
-.logo {
-    flex-basis: 5%;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 6.5rem;
-}
-
-
-.sesion{
-    color: white;
-    font-size: 2rem;
-    
-}
-.sesion img{
-    max-width: 3rem;
-    margin-left: 1rem;
-}
-
-.carrito img{
-    max-width: 4rem;
-    
-    align-items: 10rem;
-    
-    
-}
-
 .navigation{
     font-size: 1.3rem;
     margin-left: 7rem;
@@ -110,10 +106,14 @@ img{
 
 }
 
+/* aqui termina el menu*/
+
+/*esto es para la imagen de fondo con las letras*/
+
 .background-section{
     background-image: url("../img/logos/Fondo-perro-1.webp");
     height: 70vh;
-    width: 230hv;
+    width: 210vh;
     padding-top: 11rem;
     padding-left: 3rem;
     background-size: cover;
@@ -125,13 +125,15 @@ img{
     display: flex;
     justify-content: space-around ;
     align-items: center;
-    
-}
+    list-style: none;
+    font-size: 2rem;
+    color:white;
+    }
 
 h1{
     color: white;
-    
 }
+
 
 
 .section2 a{
@@ -146,17 +148,16 @@ h1{
     
 }
 
-.productos{
-    list-style: none;
-    font-size: 2rem;
-    color:white;
-}
 
 h5{
     padding-top: 3rem;
     padding-left: 3rem;
     padding-bottom: 3rem;
 }
+
+/* aqui termina la imagen de fondo*/
+
+/* esto es para las tarjetas*/
 
 .fila1{
 
@@ -182,6 +183,9 @@ h5{
     margin-top: 5rem;
 }
 
+/* aqui terminan las tarjetas*/
+
+/* esto es para las marcas asociadas*/
 .prefooter{
     display: flex;
     justify-content: space-between;
@@ -191,7 +195,7 @@ h5{
     max-height: 120em;
 }
 
-
+/*esto es el footer*/
 .fin {
     background-color: #FF7411;
     display: flex;
@@ -243,3 +247,5 @@ svg{
 .redes{
     padding: 1px;
 }
+
+/*aui termina el codigo*/
