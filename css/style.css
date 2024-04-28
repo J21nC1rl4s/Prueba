@@ -82,7 +82,11 @@ img{
 .sesion{
     color: white;
     font-size: 2rem;
-    margin-right: 10rem;
+    
+}
+.sesion img{
+    max-width: 3rem;
+    margin-left: 1rem;
 }
 
 .carrito img{
@@ -175,27 +179,67 @@ h5{
 
 .fila2{
     display: flex;
+    margin-top: 5rem;
 }
 
 .prefooter{
     display: flex;
-    width: 120rem;
     justify-content: space-between;
     text-align: center;
     padding-top: 5rem;
+    max-width: 120rem;
+    max-height: 120em;
 }
+
 
 .fin {
     background-color: #FF7411;
+    display: flex;
 
 }
 .uno{
-    ;
+    margin-left: 5rem;
+    color:white;
+    font-size: 1.5rem;
+    
 }
 
 .uno img{
     max-width: 25rem;
-    margin-top: 4rem;
+    margin-top: 1em;
+    margin-left: .3rem;
+}
+
+.dos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    color:white;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    list-style: none;
 }
 
 
+.tres{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.cuatro{
+
+    color:white;
+    margin-top: 3rem;
+    font-size:1.5rem; 
+    margin-left: 3rem; 
+}
+
+svg{
+    width: 10rem;
+}
+
+.redes{
+    padding: 1px;
+}
